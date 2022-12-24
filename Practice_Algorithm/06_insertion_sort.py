@@ -8,7 +8,7 @@ def insertion_sort(arr):
             j-=1
         arr[j+1]=temp
     return arr
-if __name__ == '__main__':
-    arr = [5,3,6,2,10,1]
+if __name__ =='__main__':
+    arr = [10,5,7,2,15,1,6]
     ans = insertion_sort(arr)
     print(ans)
